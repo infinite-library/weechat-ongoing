@@ -125,7 +125,7 @@ def list_bots():
     else:
         weechat.prnt("", "-- %sList of the watched bots %s--------" %
             (weechat.color("yellow"), weechat.color("chat")))
-        for bot_name, regex in bots.iteritems():
+        for bot_name, regex in bots.items():
             weechat.prnt("", "  %s%-24s %s%s" % (weechat.color("green"),
                  bot_name, weechat.color("chat"), regex))
         weechat.prnt("", "------------------------------------")
