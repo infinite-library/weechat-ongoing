@@ -1,3 +1,11 @@
+Gerneral info
+=============
+
+This Project is a fork of infinite-library/weechat-ongoing, which seems to not be maintained anymore.
+
+If anybody can help improving this script, e.g. adding a bunch of bot names and querying others in the list only,
+if the file was not yet downloaded or the first on the list is unavailable, **feel free to open a PR!***
+
 weechat-ongoing
 ===============
 
