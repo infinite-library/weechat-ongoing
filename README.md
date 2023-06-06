@@ -1,4 +1,4 @@
-Gerneral info
+General info
 =============
 
 This Project is a fork of infinite-library/weechat-ongoing, which seems to not be maintained anymore.
@@ -6,12 +6,17 @@ This Project is a fork of infinite-library/weechat-ongoing, which seems to not b
 If anybody can help improving this script, e.g. adding a bunch of bot names and querying others in the list only,
 if the file was not yet downloaded or the first on the list is unavailable, **feel free to open a PR!**
 
+**Breaking Change:** 
+
+With Version 2.0, filter and bot storage has been switched to JSON.<br />
+As this breaks backwards compatibility, take note of your bots and filters before upgrading!
+
 weechat-ongoing
 ===============
 
 Weechat script for automatized downloading of the new releases on XDCC bots.
 
-To enable it copy the file `ongoing.py` to `~/.weechat/python/` directiry and
+To enable it copy the file `ongoing.py` to `~/.weechat/python/` directory and
 execute the command `/python load python/ongoing.py`
 
 The comprehensive information about script usage can be found using
