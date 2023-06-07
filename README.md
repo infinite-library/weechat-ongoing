@@ -3,6 +3,8 @@ weechat-ongoing
 
 Weechat script for automatized downloading of the new releases on XDCC bots.
 
+I don't think that I'm gonna continue maintaining it because of reasons. Using [more up to date version](https://github.com/krbrs/weechat-ongoing) is more recommended.
+
 To enable it copy the file `ongoing.py` to `~/.weechat/python/` directiry and
 execute the command `/python load python/ongoing.py`
 
